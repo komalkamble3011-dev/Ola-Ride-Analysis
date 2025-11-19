@@ -3,35 +3,54 @@ This repository presents analysis of Ola ride data, combining Python-based data 
 # 🚀 Project Overview
 # Data Cleaning & Preprocessing (Python – Ola.ipynb)
 1.Importing and exploring raw ride data
+
 2.Handling missing values with appropriate strategies:
+
   i)Median imputation (Booking Value, Ride Distance)
+  
   ii)Mean imputation (Ratings)
+  
   iii)Category replacements for nulls
+  
 3.Dropping unnecessary metrics (Avg VTAT, Avg CTAT)
+
 4.Standardizing categorical fields (Ride Status, Payment Method, etc.)
+
 5.Exporting a final cleaned dataset (ola_cleaned.csv)
 
-
-
 # Interactive Dashboard (Power BI – ola dashboard create.pbix)
-> Ride Status Breakdown (Completed vs Cancelled vs Incomplete)
-> Payment Method Distribution
-> Driver & Customer Rating Patterns
-> Cancellation Reasons by Driver & Customer
-> Revenue & Booking Value Metrics
-> Ride Distance Insights
-> Time-based ride trends
+1.Ride Status Breakdown (Completed vs Cancelled vs Incomplete)
+
+2.Payment Method Distribution
+
+3.Driver & Customer Rating Patterns
+
+4.Cancellation Reasons by Driver & Customer
+
+5.Revenue & Booking Value Metrics
+
+6.Ride Distance Insights
+
+7.Time-based ride trends
 
 # 🛠️ Tech Stack
-> Python (Pandas, NumPy) – Data processing
-> Jupyter Notebook – Cleaning workflow
-> Power BI – Dashboard & reporting
-> CSV – Output dataset
+1.Python (Pandas, NumPy) – Data processing
+
+2.Jupyter Notebook – Cleaning workflow
+
+3.Power BI – Dashboard & reporting
+
+4.CSV – Output dataset
 
 # 📊 Key Insights Generated
-> Identified major reasons behind ride cancellations
-> Highlighted patterns in incomplete rides
-> Analyzed customer and driver ratings
-> Compared payment method usage across rides
-> Monitored booking value trends
-> Provided operational metrics for business optimization
+1.Identified major reasons behind ride cancellations
+
+2.Highlighted patterns in incomplete rides
+
+3.Analyzed customer and driver ratings
+
+4.Compared payment method usage across rides
+
+5.Monitored booking value trends
+
+6.Provided operational metrics for business optimization
